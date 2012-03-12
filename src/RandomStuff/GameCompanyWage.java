@@ -10,11 +10,9 @@ public class GameCompanyWage {
         hoursWorked = numScan.nextInt();
         if (hoursWorked < 20){
             totalPay = 30*hoursWorked;
-            System.out.println("You earned $" + totalPay + " this week.");
-        }
-        else {
+        } else {
             totalPay = 40*hoursWorked;
-            System.out.println("You earned $" + totalPay + " this week.");
         }
+        System.out.println("You earned $" + totalPay + " this week.");
     }
 }
